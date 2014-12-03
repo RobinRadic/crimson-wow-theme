@@ -1,0 +1,9 @@
+{
+  "generator-radic": {
+    "appname": "crimson",
+    "type": "node",
+    "generated": [
+      "project"
+    ]
+  }
+}
