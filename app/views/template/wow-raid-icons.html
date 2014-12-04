@@ -1,0 +1,39 @@
+
+
+<div class="row">
+    <div class="col-md-3">
+        <div ng-include="includes.templateNav"></div>
+    </div>
+    <div class="col-md-9">
+        <div class="portlet lightest text-center">
+            <h2 class="no-margin-top no-margin-bottom">WoW Raid icons</h2>
+        </div>
+
+        <div class="portlet lightest">
+            <h4 class="header">x47 With Hover</h4>
+            <i ng-repeat="raid in raids" class="raid-icon {{ raid }} x47 with-hover"></i>
+
+            <h4 class="header">x39 With Hover</h4>
+            <i ng-repeat="raid in raids" class="raid-icon {{ raid }} x39 with-hover"></i>
+
+            <h4 class="header">x29 With Hover</h4>
+            <i ng-repeat="raid in raids" class="raid-icon {{ raid }} x29 with-hover"></i>
+
+            <h4 class="header">x47</h4>
+            <i ng-repeat="raid in raids" class="raid-icon {{ raid }} x47"></i>
+
+            <h4 class="header">x39</h4>
+            <i ng-repeat="raid in raids" class="raid-icon {{ raid }} x39"></i>
+
+            <h4 class="header">x29</h4>
+            <i ng-repeat="raid in raids" class="raid-icon {{ raid }} x29"></i>
+
+
+            <h4 class="header">x47 Heroic</h4>
+            <i ng-repeat="raid in raids" class="raid-icon {{ raid }} x47 heroic"></i>
+        </div>
+
+
+
+    </div>
+</div>

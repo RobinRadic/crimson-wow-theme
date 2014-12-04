@@ -1,0 +1,113 @@
+$image-path: "../images/";
+
+
+/* -----------------------------------  /
+                COLORS
+/* ----------------------------------- */
+$color-darkest: #4B3827;
+$color-darker: #695B4E;
+$color-medium: #7D6D54;
+$color-light: #988F76;
+$color-lighter: #AAA189;
+$color-lightest: #D1CDC0;
+$color-error: #973C13;
+$color-danger: #973C13;
+$color-warning: #DF7500;
+$color-warning-light: #DCCA53;
+$color-success: #3C4F19;
+$color-success-light: #5C8D23;
+$color-success-lightest: #B9D094;
+$color-info: #45525D;
+$color-info-light: #7A8491;
+$colors: lightest, lighter, light, medium, darker, darkest, danger, warning, warning-light, success, success-light, success-lightest, info, info-light;
+
+
+
+/* -----------------------------------  /
+              BOOTSTRAP
+/* ----------------------------------- */
+$font-family-sans-serif:  "Lato", sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base:        $font-family-sans-serif;
+$font-size-base:          14px;
+
+$gray-darker:            darken(#4B3826, 13.5%); // #222
+$gray-dark:              #4B3826;   // #333
+$gray:                   lighten(#4B3826, 13.5%); // #555
+$gray-light:             lighten(#4B3826, 20%);   // #999
+$gray-lighter:           lighten(#4B3826, 33.5%); // #eee
+
+$brand-primary:         #4B3826;
+$brand-success:         #3C4F19;
+$brand-info:            #7A8491;
+$brand-warning:         #DF7400;
+$brand-danger:          #973B13;
+
+$text-color:            $gray-dark;
+$link-color:            $brand-primary;
+
+$headings-color:          $gray-darker;
+$headings-font-family:    "Lustria", sans-serif;
+
+
+$state-success-text:             #3C4F19;
+$state-success-bg:               #dff0d8 !default;
+$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+
+$state-info-text:                #7A8491;
+$state-info-bg:                  #d9edf7 !default;
+$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
+
+$state-warning-text:             #DF7400;
+$state-warning-bg:               #fcf8e3 !default;
+$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+
+$state-danger-text:              #973B13;
+$state-danger-bg:                #f2dede !default;
+$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+
+
+$alert-success-text:          $color-success-lightest ;
+$alert-info-text:             lighten($color-info-light, 20%) ;
+$alert-warning-text:          darken($color-warning, 10%) ;
+$alert-danger-text:           darken($color-error, 10%) ;
+
+$progress-bg:             $color-medium;
+
+/* -----------------------------------  /
+        ALEA BOOTSTRAP COMPONENTS
+/* ----------------------------------- */
+$navbar-alea-link-font:   "Lato", sans-serif;
+$navbar-alea-link-color:  #4B3827;
+
+$alea-column-default-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+
+$alea-alert-success-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+$alea-alert-info-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+$alea-alert-warning-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+$alea-alert-danger-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+
+
+
+/* -----------------------------------  /
+      BACKGROUND TO COLORS MAPPINGS
+          primarily for buttons
+/* ----------------------------------- */
+$background-color-assignments: (
+  lightest:         (color: light,          hover-bg: light,          hover-color: lightest),
+  lighter:          (color: medium,         hover-bg: medium,         hover-color: darkest),
+  light:            (color: darker,         hover-bg: darker,         hover-color: lighter),
+  medium:           (color: darkest,        hover-bg: darkest,        hover-color: medium),
+  darker:           (color: light,          hover-bg: light,          hover-color: darker),
+  darkest:          (color: medium,         hover-bg: medium,         hover-color: darkest),
+  danger:           (color: warning,        hover-bg: warning,        hover-color: danger),
+  warning:          (color: danger,  hover-bg: warning-light,  hover-color: warning),
+  warning-light:    (color: warning,        hover-bg: warning,        hover-color: warning),
+  success:          (color: success-lightest,  hover-bg: success-light,  hover-color: success),
+  success-light:    (color: success,        hover-bg: success,        hover-color: success),
+  success-lightest: (color: success,        hover-bg: success,        hover-color: success),
+  info:             (color: light,     hover-bg: info-light,     hover-color: info),
+  info-light:       (color: info,           hover-bg: info,           hover-color: info)
+);

@@ -1,0 +1,24 @@
+{
+    "menus": [
+        {
+            "name": "Top navigation menu",
+            "slug": "top-menu",
+            "items": [
+                {"name": "News", "desc": "The latest updates", "sref": "index"},
+                {"name": "Information", "desc": "About us and rules", "sref": "index"},
+                {"name": "Communication", "desc": "Forums and messaging",  "children": [
+                    {"name": "Forums", "sref": "index"},
+                    {"name": "Contact", "sref": "index"}
+                ]},
+                {"name": "Raiding", "desc": "Raid planner, attendance, logs, etc", "sref": "index"},
+                {"name": "Account", "desc": "The latest updates", "sref": "index"},
+                {"name": "Livestream", "desc": "The latest updates", "sref": "index"}
+            ]
+        }
+    ],
+    "pages": {
+        "main": [
+            { "name": "Hai"}
+        ]
+    }
+}

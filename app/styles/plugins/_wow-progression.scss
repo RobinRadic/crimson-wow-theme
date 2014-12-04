@@ -1,0 +1,52 @@
+.wow-progression {
+    .expansion {
+
+    }
+    .instance {
+        width: 100%;
+        h5 {
+            text-align: right;
+            margin-bottom: -10px;
+        }
+        table {
+            width: 100%;
+        }
+        .icon {
+            width: 60px;
+        }
+        .details {
+        }
+        .progress {
+            height: 20px;
+            margin-bottom: 5px;
+        }
+    }
+    .mode {
+
+    }
+
+}
+
+.wow-progression-tooltip {
+    .qtip-content {
+        min-width: 250px;
+        width: auto;
+        h5 {
+            color: get-color(darkest);
+        }
+        div.boss {
+            font-size: 15px;
+            &.boss-killed span{
+                text-decoration: line-through;
+                color: $color-danger;
+            }
+
+            img {
+                height: 20px;
+                width: 20px;
+                border: 1px solid $color-medium;
+                @include border-radius(3px);
+            }
+        }
+    }
+}

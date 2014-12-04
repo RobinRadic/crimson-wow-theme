@@ -1,0 +1,13 @@
+@mixin alea-alert($name, $shadow){
+  .alert-#{$name} {
+    background: url($image-path + "components/backgrounds/" + $name + ".jpg") transparent repeat;
+    border: none;
+    @include box-shadow($shadow);
+
+
+  }
+}
+@include alea-alert(success, $alea-alert-success-shadow);
+@include alea-alert(info, $alea-alert-info-shadow);
+@include alea-alert(warning, $alea-alert-warning-shadow);
+@include alea-alert(danger, $alea-alert-danger-shadow);

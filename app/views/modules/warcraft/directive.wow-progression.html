@@ -1,0 +1,43 @@
+<div class="wow-progression">
+
+    <script type="text/template" class="wow-progression-tooltip">
+        <div>
+        <h5><%= mode.mode == 'heroic' ? 'H' : 'N' %> :: <%= instance.name %> (<%= mode.kills %>/<%= mode.bosses.length %>)</h5>
+        <% _.each(mode.bosses, function(boss){ %>
+            <div class="boss <%= boss.killed ? 'boss-killed' : '' %>">
+                <img src="<%= boss.icon %>"> <span><%= boss.name %></span>
+            </div>
+        <% }) %>
+        </div>
+    </script>
+
+    <div ng-repeat="expansion in expansions" class="expansion">
+        <h4 ng-if="options.show_expansion_name">{{ expansion.name }}</h4>
+        <div ng-repeat="instance in expansion.instances" class="instance">
+            <h5 ng-if="options.show_instance_name">{{ instance.instance_name }}</h5>
+            <table>
+                <tr>
+                    <td class="icon"><i class="raid-icon x47 {{ instance.abbr }}"></i></td>
+                    <td class="details">
+                        <table>
+                            <tr ng-repeat="mode in instance.progress" class="mode" ng-if="mode.mode != 'flex'"><td>
+
+                                    <div class="progress progress-light" data-mode="{{ mode.mode }}" data-instance="{{ instance }}">
+
+                                        <div class="progress-bar progress-bar-darker" role="progressbar"
+                                             data-text="{{ mode.killLabel }} {{ mode.mode == 'normal' ? 'N' : 'H' }}"
+                                             aria-valuetransitiongoal="{{ mode.kills }}" aria-valuemin="0" aria-valuemax="{{ mode.bosses.length }}">
+
+                                                <span class="sr-only">{{ mode.killLabel }}</span>
+
+                                        </div>
+
+                                    </div>
+                            </td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

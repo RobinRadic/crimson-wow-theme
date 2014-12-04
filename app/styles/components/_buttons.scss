@@ -1,0 +1,26 @@
+
+@include background-colors(".btn", true, true);
+
+
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+    border: none !important;
+}
+.btn-default,
+.btn-primary {
+  background-color: get-color(darker);
+  color: get-color(lighter);
+
+  &:hover, &:focus{
+    background-color: get-color(medium);
+    color: get-color(darkest);
+  }
+}
+
+.bootstrap-select .btn:focus {
+  outline-color: transparent !important;
+}

@@ -1,0 +1,24 @@
+//
+// Code (inline and block)
+// --------------------------------------------------
+
+
+
+// Inline code
+code {
+
+}
+
+// Blocks of code
+pre {
+  background-color: $color-light;
+  border-color: $color-medium;
+  color: $color-lightest;
+  // Account for some code outputs that place code tags in pre tags
+  code {
+
+  }
+}
+
+@include background-colors(".pre");
+

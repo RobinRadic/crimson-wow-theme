@@ -1,0 +1,71 @@
+
+
+.portlet {
+  @include border-radius(10px);
+  width: 100%;
+  padding: 15px;
+  margin-top: ($grid-gutter-width / 2);
+  margin-bottom: ($grid-gutter-width / 2);
+
+  h1, h2, h3, h4 {
+    &.header {
+      @include border-radius(10px);
+      text-align: center;
+      margin-left: -15px;
+      max-width: 400px;
+      max-width: 70%;
+      padding: 5px 35px;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+  h1, h2 {
+    &.header {
+      margin-bottom: 20px;
+      margin-top: -15px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+  h3, h4 {
+    &.header {
+      @include border-radius(5px);
+      margin-bottom: 20px;
+      margin-top: 40px;
+      max-width: none;
+      width: 100%;
+      text-align: right;
+      font-size: 15px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+
+
+}
+@mixin create-portlet($color, $headercolor, $shadow : $alea-column-default-shadow){
+  .portlet.#{$color} {
+    background: url($image-path + "components/backgrounds/" + $color + ".png");
+
+    @include box-shadow($shadow);
+
+    h1, h2, h3, h4 {
+      &.header {
+        background: url($image-path + "components/backgrounds/" + $headercolor + ".png");
+        @include box-shadow(2px 2px 2px 1px rgba(get-color($headercolor), 0.65));
+        color: get-color($color);
+      }
+    }
+    h3, h4 {
+      &.header {
+        @include box-shadow(2px 2px 5px 1px rgba(get-color($headercolor), 0.77));
+      }
+    }
+  }
+}
+
+@include create-portlet(lightest, darker);
+@include create-portlet(light, darkest, 0px 0px 5px 0px rgba(0, 0, 0, 0.4));
+@include create-portlet(darker, lightest);
+@include create-portlet(darkest, light);

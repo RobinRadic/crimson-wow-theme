@@ -1,0 +1,132 @@
+
+html {
+  min-height: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  @media (max-width: $screen-xs-max) {
+    background-image: url($image-path + 'backgrounds/rogue-500.jpg');
+  }
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    background-image: url($image-path + 'backgrounds/rogue-800.jpg');
+  }
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max)  {
+    background-image: url($image-path + 'backgrounds/rogue-1000.jpg');
+  }
+  @media (min-width: $screen-lg) and (max-width: 1500px)  {
+    background-image: url($image-path + 'backgrounds/rogue-1500.jpg');
+  }
+  @media (min-width: 1501px) and (max-width: 2000px)  {
+    background-image: url($image-path + 'backgrounds/rogue-2000.jpg');
+  }
+  @media (min-width: 2001px) and (max-width: 2500px)  {
+    background-image: url($image-path + 'backgrounds/rogue-2500.jpg');
+  }
+  @media (min-width: 2501px) and (max-width: 3000px)  {
+    background-image: url($image-path + 'backgrounds/rogue-3000.jpg');
+  }
+  @media (min-width: 3001px) {
+    background-image: url($image-path + 'backgrounds/rogue-3500.jpg');
+  }
+  width: 100%;
+  height: auto;
+}
+
+body{
+  min-height:100%;
+  background-color: transparent;
+}
+
+.site-container {
+  @include container-fixed();
+  max-width: $screen-lg;
+
+  .header {
+    @include make-row();
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: table;
+
+    .logo {
+      display: table-cell;
+      width: 200px;
+      padding-left:  ($grid-gutter-width / 2);
+      padding-right: ($grid-gutter-width / 2);
+    }
+
+    .content {
+      display: table-cell;
+      padding-left:  ($grid-gutter-width / 2);
+      padding-right: ($grid-gutter-width / 2);
+    }
+  }
+
+
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+
+}
+
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@include keyframes(enter_animation){
+  0% {
+    opacity: 0;
+    height: 0px;
+  }
+  50% {
+    opacity: 0;
+    height: 0px;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+@include keyframes(leave_animation){
+  0% {
+    opacity: 1;
+    height: 100%;
+  }
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+  100% {
+    height: 0px;
+    opacity: 0;
+  }
+}
+
+
+.view-animation {
+  &.ng-enter {
+    @include animation(fadeInUp 0.4s);
+    @include animation-timing-function(cubic-bezier(1.000, -0.230, 0.750, 0.750));
+    height: 0px;
+  }
+
+  &.ng-leave {
+    @include animation(fadeOutDown 0.4s);
+  }
+}

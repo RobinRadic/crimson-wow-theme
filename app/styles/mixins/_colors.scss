@@ -1,0 +1,95 @@
+@function get-color($name) {
+    @if $name == lightest {
+        @return $color-lightest;
+    }
+
+    @if $name == 'lighter' {
+        @return $color-lighter;
+    }
+
+    @if $name == 'light' {
+        @return $color-light;
+    }
+
+    @if $name == medium {
+        @return $color-medium;
+    }
+
+    @if $name == 'darker' {
+        @return $color-darker;
+    }
+
+    @if $name == 'darkest' {
+        @return $color-darkest;
+    }
+
+    @if $name == 'danger' {
+        @return $color-danger;
+    }
+
+    @if $name == 'warning' {
+        @return $color-warning;
+    }
+
+    @if $name == 'warning-light' {
+        @return $color-warning-light;
+    }
+
+    @if $name == 'success' {
+        @return $color-success;
+    }
+
+    @if $name == 'success-light' {
+        @return $color-success-light;
+    }
+
+    @if $name == 'success-lightest' {
+        @return $color-success-lightest;
+    }
+
+    @if $name == 'info' {
+        @return $color-info;
+    }
+
+    @if $name == 'info-light' {
+        @return $color-info-light;
+    }
+
+}
+
+@mixin text-colors($class) {
+    @for $i from 1 through length($colors) {
+        #{$class + "-" + nth($colors, $i)} {
+            color: get-color(nth($colors, $i));
+        }
+    }
+}
+
+@mixin background-colors($class, $dotext: false, $dohover: false) {
+    @for $i from 1 through length($colors) {
+        #{$class + "-" + nth($colors, $i)} {
+            background-color: get-color(nth($colors, $i));
+
+            @if $dotext == true {
+                color: get-color(map-get(map-get($background-color-assignments, nth($colors, $i)), color));
+            }
+
+            @if $dohover == true {
+                &:hover, &:focus {
+                    background-color: get-color(map-get(map-get($background-color-assignments, nth($colors, $i)), hover-bg));
+                    color: get-color(map-get(map-get($background-color-assignments, nth($colors, $i)), hover-color));
+                }
+            }
+        }
+    }
+}
+
+@mixin background($variant: 'lightest') {
+    background-image: url($image-path + 'components/backgrounds/' + $variant + '_rust.jpg');
+    background-repeat: repeat;
+}
+
+@mixin background-transparent($variant: 'lightest') {
+    background-image: url($img_path + 'components/backgrounds/' + $variant + '_rust_transparent.png');
+    background-repeat: repeat;
+}

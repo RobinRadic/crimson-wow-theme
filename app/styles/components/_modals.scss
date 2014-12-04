@@ -1,0 +1,28 @@
+
+.modal-alea{
+  .modal-content{
+    @include background('lighter');
+    .modal-header{
+      @include background('lighter');
+      border-bottom: 1px solid $color-light;
+      color: $color-darker;
+    }
+    .modal-body{
+      color: $color-medium;
+    }
+    .modal-footer{
+      border-top: 1px solid $color-light;
+
+      @include background('lighter');
+      color: $color-medium;
+
+    }
+  }
+}
+
+.modal-backdrop{
+  background: $color-lightest;
+  opacity:0.7;
+  background-opacity: 0.5;
+
+}
