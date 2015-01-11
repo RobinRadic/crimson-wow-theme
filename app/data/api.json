@@ -1,24 +1,2004 @@
 {
-    "menus": [
+  "menus": [
+    {
+      "name": "Top navigation menu",
+      "slug": "top-menu",
+      "items": [
         {
-            "name": "Top navigation menu",
-            "slug": "top-menu",
-            "items": [
-                {"name": "News", "desc": "The latest updates", "sref": "index"},
-                {"name": "Information", "desc": "About us and rules", "sref": "index"},
-                {"name": "Communication", "desc": "Forums and messaging",  "children": [
-                    {"name": "Forums", "sref": "index"},
-                    {"name": "Contact", "sref": "index"}
-                ]},
-                {"name": "Raiding", "desc": "Raid planner, attendance, logs, etc", "sref": "index"},
-                {"name": "Account", "desc": "The latest updates", "sref": "index"},
-                {"name": "Livestream", "desc": "The latest updates", "sref": "index"}
-            ]
+          "name": "News",
+          "desc": "The latest updates",
+          "sref": "index"
+        },
+        {
+          "name": "Information",
+          "desc": "About us and rules",
+          "sref": "index"
+        },
+        {
+          "name": "Communication",
+          "desc": "Forums and messaging",
+          "children": [
+            {
+              "name": "Forums",
+              "sref": "index"
+            },
+            {
+              "name": "Contact",
+              "sref": "index"
+            }
+          ]
+        },
+        {
+          "name": "Raiding",
+          "desc": "Raid planner, attendance, logs, etc",
+          "sref": "index"
+        },
+        {
+          "name": "Account",
+          "desc": "The latest updates",
+          "sref": "index"
+        },
+        {
+          "name": "Livestream",
+          "desc": "The latest updates",
+          "sref": "index"
         }
-    ],
-    "pages": {
-        "main": [
-            { "name": "Hai"}
-        ]
+      ]
     }
+  ],
+  "pages": {
+    "main": [
+      {
+        "name": "Hai"
+      }
+    ]
+  },
+  "raids": [
+    {
+      "name": "Molten Core",
+      "slug": "molten-core",
+      "id": 2717,
+      "bosses": [
+        11502
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/molten-core/molten-core.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/molten-core.jpg"
+      }
+    },
+    {
+      "name": "Blackwing Lair",
+      "slug": "blackwing-lair",
+      "id": 2677,
+      "bosses": [
+        11583
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/blackwing-lair/blackwing-lair.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/blackwing-lair.jpg"
+      }
+    },
+    {
+      "name": "Ruins of Ahn'Qiraj",
+      "slug": "ruins-of-ahnqiraj",
+      "id": 3429,
+      "bosses": [
+        15339
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/ruins-of-ahnqiraj/ruins-of-ahnqiraj.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/ruins-of-ahnqiraj.jpg"
+      }
+    },
+    {
+      "name": "Ahn'Qiraj Temple",
+      "slug": "ahnqiraj-temple",
+      "id": 3428,
+      "bosses": [
+        15727
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/ahnqiraj-temple/ahnqiraj-temple.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/ahnqiraj-temple.jpg"
+      }
+    },
+    {
+      "name": "Karazhan",
+      "slug": "karazhan",
+      "id": 3457,
+      "bosses": [
+        15690
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/karazhan/karazhan.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/karazhan.jpg"
+      }
+    },
+    {
+      "name": "Magtheridon's Lair",
+      "slug": "magtheridons-lair",
+      "id": 3836,
+      "bosses": [
+        17257
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/magtheridons-lair/magtheridons-lair.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/magtheridons-lair.jpg"
+      }
+    },
+    {
+      "name": "Gruul's Lair",
+      "slug": "gruuls-lair",
+      "id": 3923,
+      "bosses": [
+        19044
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/gruuls-lair/gruuls-lair.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/gruuls-lair.jpg"
+      }
+    },
+    {
+      "name": "Serpentshrine Cavern",
+      "slug": "serpentshrine-cavern",
+      "id": 3607,
+      "bosses": [
+        21212
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/serpentshrine-cavern/serpentshrine-cavern.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/serpentshrine-cavern.jpg"
+      }
+    },
+    {
+      "name": "Tempest Keep",
+      "slug": "tempest-keep",
+      "id": 3845,
+      "bosses": [
+        19622
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/tempest-keep/tempest-keep.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/tempest-keep.jpg"
+      }
+    },
+    {
+      "name": "The Battle for Mount Hyjal",
+      "slug": "the-battle-for-mount-hyjal",
+      "id": 3606,
+      "bosses": [
+        17968
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/the-battle-for-mount-hyjal/the-battle-for-mount-hyjal.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/the-battle-for-mount-hyjal.jpg"
+      }
+    },
+    {
+      "name": "Black Temple",
+      "slug": "black-temple",
+      "id": 3959,
+      "bosses": [
+        22917
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/black-temple/black-temple.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/black-temple.jpg"
+      }
+    },
+    {
+      "name": "The Sunwell",
+      "slug": "the-sunwell",
+      "id": 4075,
+      "bosses": [
+        25315
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/the-sunwell/the-sunwell.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/the-sunwell.jpg"
+      }
+    },
+    {
+      "name": "Vault of Archavon",
+      "slug": "vault-of-archavon",
+      "id": 4603,
+      "bosses": [
+        31125,
+        33993,
+        35013,
+        38433
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/vault-of-archavon/vault-of-archavon.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/vault-of-archavon.jpg"
+      }
+    },
+    {
+      "name": "Naxxramas",
+      "slug": "naxxramas",
+      "id": 3456,
+      "bosses": [
+        15956,
+        15953,
+        15952,
+        15954,
+        15936,
+        16011,
+        16061,
+        16060,
+        0,
+        16028,
+        15931,
+        15932,
+        15928,
+        15989,
+        15990
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/naxxramas/naxxramas.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/naxxramas.jpg"
+      }
+    },
+    {
+      "name": "The Obsidian Sanctum",
+      "slug": "the-obsidian-sanctum",
+      "id": 4493,
+      "bosses": [
+        28860
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/the-obsidian-sanctum/the-obsidian-sanctum.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/the-obsidian-sanctum.jpg"
+      }
+    },
+    {
+      "name": "The Eye of Eternity",
+      "slug": "the-eye-of-eternity",
+      "id": 4500,
+      "bosses": [
+        28859
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/the-eye-of-eternity/the-eye-of-eternity.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/the-eye-of-eternity.jpg"
+      }
+    },
+    {
+      "name": "Ulduar",
+      "slug": "ulduar",
+      "id": 4273,
+      "bosses": [
+        33113,
+        33118,
+        33186,
+        33293,
+        0,
+        32930,
+        33515,
+        32845,
+        32865,
+        32906,
+        33350,
+        33271,
+        33288,
+        32871
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/ulduar/ulduar.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/ulduar.jpg"
+      }
+    },
+    {
+      "name": "Onyxia's Lair",
+      "slug": "onyxias-lair",
+      "id": 2159,
+      "bosses": [
+        10184
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/onyxias-lair/onyxias-lair.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/onyxias-lair.jpg"
+      }
+    },
+    {
+      "name": "Trial of the Crusader",
+      "slug": "trial-of-the-crusader",
+      "id": 4722,
+      "bosses": [
+        0,
+        34780,
+        0,
+        0,
+        34564
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/trial-of-the-crusader/trial-of-the-crusader.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/trial-of-the-crusader.jpg"
+      }
+    },
+    {
+      "name": "Icecrown Citadel",
+      "slug": "icecrown-citadel",
+      "id": 4812,
+      "bosses": [
+        36612,
+        36855,
+        0,
+        37813,
+        36627,
+        36626,
+        36678,
+        0,
+        37955,
+        36789,
+        36853,
+        36597
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/icecrown-citadel/icecrown-citadel.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/icecrown-citadel.jpg"
+      }
+    },
+    {
+      "name": "The Ruby Sanctum",
+      "slug": "the-ruby-sanctum",
+      "id": 4987,
+      "bosses": [
+        39863
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/the-ruby-sanctum/the-ruby-sanctum.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/the-ruby-sanctum.jpg"
+      }
+    },
+    {
+      "name": "Baradin Hold",
+      "slug": "baradin-hold",
+      "id": 5600,
+      "bosses": [
+        47120,
+        52363,
+        55869
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/baradin-hold/baradin-hold.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/baradin-hold.jpg"
+      }
+    },
+    {
+      "name": "Blackwing Descent",
+      "slug": "blackwing-descent",
+      "id": 5094,
+      "bosses": [
+        0,
+        41570,
+        41442,
+        43296,
+        41378,
+        41376
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/blackwing-descent/blackwing-descent.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/blackwing-descent.jpg"
+      }
+    },
+    {
+      "name": "The Bastion of Twilight",
+      "slug": "the-bastion-of-twilight",
+      "id": 5334,
+      "bosses": [
+        44600,
+        0,
+        0,
+        43324,
+        45213
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/the-bastion-of-twilight/the-bastion-of-twilight.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/the-bastion-of-twilight.jpg"
+      }
+    },
+    {
+      "name": "Throne of the Four Winds",
+      "slug": "throne-of-the-four-winds",
+      "id": 5638,
+      "bosses": [
+        0,
+        46753
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/throne-of-the-four-winds/throne-of-the-four-winds.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/throne-of-the-four-winds.jpg"
+      }
+    },
+    {
+      "name": "Firelands",
+      "slug": "firelands",
+      "id": 5723,
+      "bosses": [
+        52498,
+        53772,
+        53691,
+        52530,
+        53494,
+        52571,
+        52409
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/firelands/firelands.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/firelands.jpg"
+      }
+    },
+    {
+      "name": "Dragon Soul",
+      "slug": "dragon-soul",
+      "id": 5892,
+      "bosses": [
+        55265,
+        55308,
+        55312,
+        55689,
+        55294,
+        56427,
+        53879,
+        57962
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/dragon-soul/dragon-soul.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/dragon-soul.jpg"
+      }
+    },
+    {
+      "name": "Mogu'shan Vaults",
+      "slug": "mogushan-vaults",
+      "id": 6125,
+      "bosses": [
+        0,
+        60009,
+        60143,
+        0,
+        60410,
+        0
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/mogushan-vaults/mogushan-vaults.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/mogushan-vaults.jpg"
+      }
+    },
+    {
+      "name": "Heart of Fear",
+      "slug": "heart-of-fear",
+      "id": 6297,
+      "bosses": [
+        62980,
+        62543,
+        62164,
+        62397,
+        62511,
+        62837
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/heart-of-fear/heart-of-fear.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/heart-of-fear.jpg"
+      }
+    },
+    {
+      "name": "Terrace of Endless Spring",
+      "slug": "terrace-of-endless-spring",
+      "id": 6067,
+      "bosses": [
+        60583,
+        62442,
+        62983,
+        60999
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/terrace-of-endless-spring/terrace-of-endless-spring.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/terrace-of-endless-spring.jpg"
+      }
+    },
+    {
+      "name": "Throne of Thunder",
+      "slug": "throne-of-thunder",
+      "id": 6622,
+      "bosses": [
+        69465,
+        68476,
+        69078,
+        67977,
+        68066,
+        68177,
+        67827,
+        69017,
+        69427,
+        68078,
+        68904,
+        68397,
+        69473
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/throne-of-thunder/throne-of-thunder.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/throne-of-thunder.jpg"
+      }
+    },
+    {
+      "name": "Siege of Orgrimmar",
+      "slug": "siege-of-orgrimmar",
+      "id": 6738,
+      "bosses": [
+        71543,
+        71475,
+        71965,
+        71734,
+        72249,
+        72616,
+        71859,
+        71515,
+        71454,
+        71889,
+        71529,
+        71504,
+        71152,
+        71865
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/siege-of-orgrimmar/siege-of-orgrimmar.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/siege-of-orgrimmar.jpg"
+      }
+    },
+    {
+      "name": "Highmaul",
+      "slug": "highmaul",
+      "id": 6996,
+      "bosses": [
+        87444,
+        87447,
+        87441,
+        87446,
+        87449,
+        87445,
+        87818
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/highmaul/highmaul.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/highmaul.jpg"
+      }
+    },
+    {
+      "name": "Blackrock Foundry",
+      "slug": "blackrock-foundry",
+      "id": 6967,
+      "bosses": [
+        77182,
+        76877,
+        76809,
+        76974,
+        76814,
+        77692,
+        76865,
+        76906,
+        77557,
+        87420
+      ],
+      "images": {
+        "map": "http://media.blizzard.com/wow/media/artwork/dungeon-maps/en-us/blackrock-foundry/blackrock-foundry.jpg",
+        "thumbnail": "http://eu.battle.net/wow/static/images/wiki/zone/thumbnails/blackrock-foundry.jpg"
+      }
+    }
+  ],
+  "bosses": [
+    {
+      "name": "Ragnaros",
+      "slug": "ragnaros",
+      "id": 11502,
+      "raid_id": 2717,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature11502.jpg"
+      }
+    },
+    {
+      "name": "Nefarian",
+      "slug": "nefarian",
+      "id": 11583,
+      "raid_id": 2677,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature11583.jpg"
+      }
+    },
+    {
+      "name": "Ossirian the Unscarred",
+      "slug": "ossirian-the-unscarred",
+      "id": 15339,
+      "raid_id": 3429,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15339.jpg"
+      }
+    },
+    {
+      "name": "C'Thun",
+      "slug": "cthun",
+      "id": 15727,
+      "raid_id": 3428,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15727.jpg"
+      }
+    },
+    {
+      "name": "Prince Malchezaar",
+      "slug": "prince-malchezaar",
+      "id": 15690,
+      "raid_id": 3457,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15690.jpg"
+      }
+    },
+    {
+      "name": "Magtheridon",
+      "slug": "magtheridon",
+      "id": 17257,
+      "raid_id": 3836,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature17257.jpg"
+      }
+    },
+    {
+      "name": "Gruul the Dragonkiller",
+      "slug": "gruul-the-dragonkiller",
+      "id": 19044,
+      "raid_id": 3923,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature19044.jpg"
+      }
+    },
+    {
+      "name": "Lady Vashj",
+      "slug": "lady-vashj",
+      "id": 21212,
+      "raid_id": 3607,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature21212.jpg"
+      }
+    },
+    {
+      "name": "Kael'thas Sunstrider",
+      "slug": "kaelthas-sunstrider",
+      "id": 19622,
+      "raid_id": 3845,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature19622.jpg"
+      }
+    },
+    {
+      "name": "Archimonde",
+      "slug": "archimonde",
+      "id": 17968,
+      "raid_id": 3606,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature17968.jpg"
+      }
+    },
+    {
+      "name": "Illidan Stormrage",
+      "slug": "illidan-stormrage",
+      "id": 22917,
+      "raid_id": 3959,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature22917.jpg"
+      }
+    },
+    {
+      "name": "Kil'jaeden",
+      "slug": "kiljaeden",
+      "id": 25315,
+      "raid_id": 4075,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature25315.jpg"
+      }
+    },
+    {
+      "name": "Archavon the Stone Watcher",
+      "slug": "archavon-the-stone-watcher",
+      "id": 31125,
+      "raid_id": 4603,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature31125.jpg"
+      }
+    },
+    {
+      "name": "Emalon the Storm Watcher",
+      "slug": "emalon-the-storm-watcher",
+      "id": 33993,
+      "raid_id": 4603,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33993.jpg"
+      }
+    },
+    {
+      "name": "Koralon the Flame Watcher",
+      "slug": "koralon-the-flame-watcher",
+      "id": 35013,
+      "raid_id": 4603,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature35013.jpg"
+      }
+    },
+    {
+      "name": "Toravon the Ice Watcher",
+      "slug": "toravon-the-ice-watcher",
+      "id": 38433,
+      "raid_id": 4603,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature38433.jpg"
+      }
+    },
+    {
+      "name": "Anub'Rekhan",
+      "slug": "anubrekhan",
+      "id": 15956,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15956.jpg"
+      }
+    },
+    {
+      "name": "Grand Widow Faerlina",
+      "slug": "grand-widow-faerlina",
+      "id": 15953,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15953.jpg"
+      }
+    },
+    {
+      "name": "Maexxna",
+      "slug": "maexxna",
+      "id": 15952,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15952.jpg"
+      }
+    },
+    {
+      "name": "Noth the Plaguebringer",
+      "slug": "noth-the-plaguebringer",
+      "id": 15954,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15954.jpg"
+      }
+    },
+    {
+      "name": "Heigan the Unclean",
+      "slug": "heigan-the-unclean",
+      "id": 15936,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15936.jpg"
+      }
+    },
+    {
+      "name": "Loatheb",
+      "slug": "loatheb",
+      "id": 16011,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature16011.jpg"
+      }
+    },
+    {
+      "name": "Instructor Razuvious",
+      "slug": "instructor-razuvious",
+      "id": 16061,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature16061.jpg"
+      }
+    },
+    {
+      "name": "Gothik the Harvester",
+      "slug": "gothik-the-harvester",
+      "id": 16060,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature16060.jpg"
+      }
+    },
+    {
+      "name": "The Four Horsemen",
+      "slug": "the-four-horsemen",
+      "id": 0,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Patchwerk",
+      "slug": "patchwerk",
+      "id": 16028,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature16028.jpg"
+      }
+    },
+    {
+      "name": "Grobbulus",
+      "slug": "grobbulus",
+      "id": 15931,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15931.jpg"
+      }
+    },
+    {
+      "name": "Gluth",
+      "slug": "gluth",
+      "id": 15932,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15932.jpg"
+      }
+    },
+    {
+      "name": "Thaddius",
+      "slug": "thaddius",
+      "id": 15928,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15928.jpg"
+      }
+    },
+    {
+      "name": "Sapphiron",
+      "slug": "sapphiron",
+      "id": 15989,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15989.jpg"
+      }
+    },
+    {
+      "name": "Kel'Thuzad",
+      "slug": "kelthuzad",
+      "id": 15990,
+      "raid_id": 3456,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature15990.jpg"
+      }
+    },
+    {
+      "name": "Sartharion",
+      "slug": "sartharion",
+      "id": 28860,
+      "raid_id": 4493,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature28860.jpg"
+      }
+    },
+    {
+      "name": "Malygos",
+      "slug": "malygos",
+      "id": 28859,
+      "raid_id": 4500,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature28859.jpg"
+      }
+    },
+    {
+      "name": "Flame Leviathan",
+      "slug": "flame-leviathan",
+      "id": 33113,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33113.jpg"
+      }
+    },
+    {
+      "name": "Ignis the Furnace Master",
+      "slug": "ignis-the-furnace-master",
+      "id": 33118,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33118.jpg"
+      }
+    },
+    {
+      "name": "Razorscale",
+      "slug": "razorscale",
+      "id": 33186,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33186.jpg"
+      }
+    },
+    {
+      "name": "XT-002 Deconstructor",
+      "slug": "xt-002-deconstructor",
+      "id": 33293,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33293.jpg"
+      }
+    },
+    {
+      "name": "The Assembly of Iron",
+      "slug": "the-assembly-of-iron",
+      "id": 0,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Kologarn",
+      "slug": "kologarn",
+      "id": 32930,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature32930.jpg"
+      }
+    },
+    {
+      "name": "Auriaya",
+      "slug": "auriaya",
+      "id": 33515,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33515.jpg"
+      }
+    },
+    {
+      "name": "Hodir",
+      "slug": "hodir",
+      "id": 32845,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature32845.jpg"
+      }
+    },
+    {
+      "name": "Thorim",
+      "slug": "thorim",
+      "id": 32865,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature32865.jpg"
+      }
+    },
+    {
+      "name": "Freya",
+      "slug": "freya",
+      "id": 32906,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature32906.jpg"
+      }
+    },
+    {
+      "name": "Mimiron",
+      "slug": "mimiron",
+      "id": 33350,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33350.jpg"
+      }
+    },
+    {
+      "name": "General Vezax",
+      "slug": "general-vezax",
+      "id": 33271,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33271.jpg"
+      }
+    },
+    {
+      "name": "Yogg-Saron",
+      "slug": "yogg-saron",
+      "id": 33288,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature33288.jpg"
+      }
+    },
+    {
+      "name": "Algalon the Observer",
+      "slug": "algalon-the-observer",
+      "id": 32871,
+      "raid_id": 4273,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature32871.jpg"
+      }
+    },
+    {
+      "name": "Onyxia",
+      "slug": "onyxia",
+      "id": 10184,
+      "raid_id": 2159,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature10184.jpg"
+      }
+    },
+    {
+      "name": "Northrend Beasts",
+      "slug": "northrend-beasts",
+      "id": 0,
+      "raid_id": 4722,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Lord Jaraxxus",
+      "slug": "lord-jaraxxus",
+      "id": 34780,
+      "raid_id": 4722,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature34780.jpg"
+      }
+    },
+    {
+      "name": "Faction Champions",
+      "slug": "faction-champions",
+      "id": 0,
+      "raid_id": 4722,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Val'kyr Twins",
+      "slug": "valkyr-twins",
+      "id": 0,
+      "raid_id": 4722,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Anub'arak",
+      "slug": "anubarak",
+      "id": 34564,
+      "raid_id": 4722,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature34564.jpg"
+      }
+    },
+    {
+      "name": "Lord Marrowgar",
+      "slug": "lord-marrowgar",
+      "id": 36612,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36612.jpg"
+      }
+    },
+    {
+      "name": "Lady Deathwhisper",
+      "slug": "lady-deathwhisper",
+      "id": 36855,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36855.jpg"
+      }
+    },
+    {
+      "name": "Icecrown Gunship Battle",
+      "slug": "icecrown-gunship-battle",
+      "id": 0,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Deathbringer Saurfang",
+      "slug": "deathbringer-saurfang",
+      "id": 37813,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature37813.jpg"
+      }
+    },
+    {
+      "name": "Rotface",
+      "slug": "rotface",
+      "id": 36627,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36627.jpg"
+      }
+    },
+    {
+      "name": "Festergut",
+      "slug": "festergut",
+      "id": 36626,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36626.jpg"
+      }
+    },
+    {
+      "name": "Professor Putricide",
+      "slug": "professor-putricide",
+      "id": 36678,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36678.jpg"
+      }
+    },
+    {
+      "name": "Blood Council",
+      "slug": "blood-council",
+      "id": 0,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Blood-Queen Lana'thel",
+      "slug": "blood-queen-lanathel",
+      "id": 37955,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature37955.jpg"
+      }
+    },
+    {
+      "name": "Valithria Dreamwalker",
+      "slug": "valithria-dreamwalker",
+      "id": 36789,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36789.jpg"
+      }
+    },
+    {
+      "name": "Sindragosa",
+      "slug": "sindragosa",
+      "id": 36853,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36853.jpg"
+      }
+    },
+    {
+      "name": "The Lich King",
+      "slug": "the-lich-king",
+      "id": 36597,
+      "raid_id": 4812,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature36597.jpg"
+      }
+    },
+    {
+      "name": "Halion",
+      "slug": "halion",
+      "id": 39863,
+      "raid_id": 4987,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature39863.jpg"
+      }
+    },
+    {
+      "name": "Argaloth",
+      "slug": "argaloth",
+      "id": 47120,
+      "raid_id": 5600,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature47120.jpg"
+      }
+    },
+    {
+      "name": "Occu'thar",
+      "slug": "occuthar",
+      "id": 52363,
+      "raid_id": 5600,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature52363.jpg"
+      }
+    },
+    {
+      "name": "Alizabal, Mistress of Hate",
+      "slug": "alizabal-mistress-of-hate",
+      "id": 55869,
+      "raid_id": 5600,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature55869.jpg"
+      }
+    },
+    {
+      "name": "Omnotron Defense System",
+      "slug": "omnotron-defense-system",
+      "id": 0,
+      "raid_id": 5094,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Magmaw",
+      "slug": "magmaw",
+      "id": 41570,
+      "raid_id": 5094,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature41570.jpg"
+      }
+    },
+    {
+      "name": "Atramedes",
+      "slug": "atramedes",
+      "id": 41442,
+      "raid_id": 5094,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature41442.jpg"
+      }
+    },
+    {
+      "name": "Chimaeron",
+      "slug": "chimaeron",
+      "id": 43296,
+      "raid_id": 5094,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature43296.jpg"
+      }
+    },
+    {
+      "name": "Maloriak",
+      "slug": "maloriak",
+      "id": 41378,
+      "raid_id": 5094,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature41378.jpg"
+      }
+    },
+    {
+      "name": "Nefarian's End",
+      "slug": "nefarians-end",
+      "id": 41376,
+      "raid_id": 5094,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature41376.jpg"
+      }
+    },
+    {
+      "name": "Halfus Wyrmbreaker",
+      "slug": "halfus-wyrmbreaker",
+      "id": 44600,
+      "raid_id": 5334,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature44600.jpg"
+      }
+    },
+    {
+      "name": "Theralion and Valiona",
+      "slug": "theralion-and-valiona",
+      "id": 0,
+      "raid_id": 5334,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Ascendant Council",
+      "slug": "ascendant-council",
+      "id": 0,
+      "raid_id": 5334,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Cho'gall",
+      "slug": "chogall",
+      "id": 43324,
+      "raid_id": 5334,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature43324.jpg"
+      }
+    },
+    {
+      "name": "Sinestra",
+      "slug": "sinestra",
+      "id": 45213,
+      "raid_id": 5334,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature45213.jpg"
+      }
+    },
+    {
+      "name": "The Conclave of Wind",
+      "slug": "the-conclave-of-wind",
+      "id": 0,
+      "raid_id": 5638,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Al'Akir",
+      "slug": "alakir",
+      "id": 46753,
+      "raid_id": 5638,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature46753.jpg"
+      }
+    },
+    {
+      "name": "Beth'tilac",
+      "slug": "bethtilac",
+      "id": 52498,
+      "raid_id": 5723,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature52498.jpg"
+      }
+    },
+    {
+      "name": "Lord Rhyolith",
+      "slug": "lord-rhyolith",
+      "id": 53772,
+      "raid_id": 5723,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature53772.jpg"
+      }
+    },
+    {
+      "name": "Shannox",
+      "slug": "shannox",
+      "id": 53691,
+      "raid_id": 5723,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature53691.jpg"
+      }
+    },
+    {
+      "name": "Alysrazor",
+      "slug": "alysrazor",
+      "id": 52530,
+      "raid_id": 5723,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature52530.jpg"
+      }
+    },
+    {
+      "name": "Baleroc, the Gatekeeper",
+      "slug": "baleroc-the-gatekeeper",
+      "id": 53494,
+      "raid_id": 5723,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature53494.jpg"
+      }
+    },
+    {
+      "name": "Majordomo Staghelm",
+      "slug": "majordomo-staghelm",
+      "id": 52571,
+      "raid_id": 5723,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature52571.jpg"
+      }
+    },
+    {
+      "name": "Ragnaros",
+      "slug": "ragnaros",
+      "id": 52409,
+      "raid_id": 5723,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature52409.jpg"
+      }
+    },
+    {
+      "name": "Morchok",
+      "slug": "morchok",
+      "id": 55265,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature55265.jpg"
+      }
+    },
+    {
+      "name": "Warlord Zon'ozz",
+      "slug": "warlord-zonozz",
+      "id": 55308,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature55308.jpg"
+      }
+    },
+    {
+      "name": "Yor'sahj the Unsleeping",
+      "slug": "yorsahj-the-unsleeping",
+      "id": 55312,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature55312.jpg"
+      }
+    },
+    {
+      "name": "Hagara the Stormbinder",
+      "slug": "hagara-the-stormbinder",
+      "id": 55689,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature55689.jpg"
+      }
+    },
+    {
+      "name": "Ultraxion",
+      "slug": "ultraxion",
+      "id": 55294,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature55294.jpg"
+      }
+    },
+    {
+      "name": "Warmaster Blackhorn",
+      "slug": "warmaster-blackhorn",
+      "id": 56427,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature56427.jpg"
+      }
+    },
+    {
+      "name": "Spine of Deathwing",
+      "slug": "spine-of-deathwing",
+      "id": 53879,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature53879.jpg"
+      }
+    },
+    {
+      "name": "Madness of Deathwing",
+      "slug": "madness-of-deathwing",
+      "id": 57962,
+      "raid_id": 5892,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature57962.jpg"
+      }
+    },
+    {
+      "name": "The Stone Guard",
+      "slug": "the-stone-guard",
+      "id": 0,
+      "raid_id": 6125,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Feng the Accursed",
+      "slug": "feng-the-accursed",
+      "id": 60009,
+      "raid_id": 6125,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature60009.jpg"
+      }
+    },
+    {
+      "name": "Gara'jal the Spiritbinder",
+      "slug": "garajal-the-spiritbinder",
+      "id": 60143,
+      "raid_id": 6125,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature60143.jpg"
+      }
+    },
+    {
+      "name": "The Spirit Kings",
+      "slug": "the-spirit-kings",
+      "id": 0,
+      "raid_id": 6125,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Elegon",
+      "slug": "elegon",
+      "id": 60410,
+      "raid_id": 6125,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature60410.jpg"
+      }
+    },
+    {
+      "name": "Will of the Emperor",
+      "slug": "will-of-the-emperor",
+      "id": 0,
+      "raid_id": 6125,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature0.jpg"
+      }
+    },
+    {
+      "name": "Imperial Vizier Zor'lok",
+      "slug": "imperial-vizier-zorlok",
+      "id": 62980,
+      "raid_id": 6297,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62980.jpg"
+      }
+    },
+    {
+      "name": "Blade Lord Ta'yak",
+      "slug": "blade-lord-tayak",
+      "id": 62543,
+      "raid_id": 6297,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62543.jpg"
+      }
+    },
+    {
+      "name": "Garalon",
+      "slug": "garalon",
+      "id": 62164,
+      "raid_id": 6297,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62164.jpg"
+      }
+    },
+    {
+      "name": "Wind Lord Mel'jarak",
+      "slug": "wind-lord-meljarak",
+      "id": 62397,
+      "raid_id": 6297,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62397.jpg"
+      }
+    },
+    {
+      "name": "Amber-Shaper Un'sok",
+      "slug": "amber-shaper-unsok",
+      "id": 62511,
+      "raid_id": 6297,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62511.jpg"
+      }
+    },
+    {
+      "name": "Grand Empress Shek'zeer",
+      "slug": "grand-empress-shekzeer",
+      "id": 62837,
+      "raid_id": 6297,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62837.jpg"
+      }
+    },
+    {
+      "name": "Protectors of the Endless",
+      "slug": "protectors-of-the-endless",
+      "id": 60583,
+      "raid_id": 6067,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature60583.jpg"
+      }
+    },
+    {
+      "name": "Tsulong",
+      "slug": "tsulong",
+      "id": 62442,
+      "raid_id": 6067,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62442.jpg"
+      }
+    },
+    {
+      "name": "Lei Shi",
+      "slug": "lei-shi",
+      "id": 62983,
+      "raid_id": 6067,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature62983.jpg"
+      }
+    },
+    {
+      "name": "Sha of Fear",
+      "slug": "sha-of-fear",
+      "id": 60999,
+      "raid_id": 6067,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature60999.jpg"
+      }
+    },
+    {
+      "name": "Jin'rokh the Breaker",
+      "slug": "jinrokh-the-breaker",
+      "id": 69465,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature69465.jpg"
+      }
+    },
+    {
+      "name": "Horridon",
+      "slug": "horridon",
+      "id": 68476,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature68476.jpg"
+      }
+    },
+    {
+      "name": "Council of Elders",
+      "slug": "council-of-elders",
+      "id": 69078,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature69078.jpg"
+      }
+    },
+    {
+      "name": "Tortos",
+      "slug": "tortos",
+      "id": 67977,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature67977.jpg"
+      }
+    },
+    {
+      "name": "Megaera",
+      "slug": "megaera",
+      "id": 68066,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature68066.jpg"
+      }
+    },
+    {
+      "name": "Ji-Kun",
+      "slug": "ji-kun",
+      "id": 68177,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature68177.jpg"
+      }
+    },
+    {
+      "name": "Durumu the Forgotten",
+      "slug": "durumu-the-forgotten",
+      "id": 67827,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature67827.jpg"
+      }
+    },
+    {
+      "name": "Primordius",
+      "slug": "primordius",
+      "id": 69017,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature69017.jpg"
+      }
+    },
+    {
+      "name": "Dark Animus",
+      "slug": "dark-animus",
+      "id": 69427,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature69427.jpg"
+      }
+    },
+    {
+      "name": "Iron Qon",
+      "slug": "iron-qon",
+      "id": 68078,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature68078.jpg"
+      }
+    },
+    {
+      "name": "Twin Consorts",
+      "slug": "twin-consorts",
+      "id": 68904,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature68904.jpg"
+      }
+    },
+    {
+      "name": "Lei Shen",
+      "slug": "lei-shen",
+      "id": 68397,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature68397.jpg"
+      }
+    },
+    {
+      "name": "Ra-den",
+      "slug": "ra-den",
+      "id": 69473,
+      "raid_id": 6622,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature69473.jpg"
+      }
+    },
+    {
+      "name": "Immerseus",
+      "slug": "immerseus",
+      "id": 71543,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71543.jpg"
+      }
+    },
+    {
+      "name": "The Fallen Protectors",
+      "slug": "the-fallen-protectors",
+      "id": 71475,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71475.jpg"
+      }
+    },
+    {
+      "name": "Norushen",
+      "slug": "norushen",
+      "id": 71965,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71965.jpg"
+      }
+    },
+    {
+      "name": "Sha of Pride",
+      "slug": "sha-of-pride",
+      "id": 71734,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71734.jpg"
+      }
+    },
+    {
+      "name": "Galakras",
+      "slug": "galakras",
+      "id": 72249,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature72249.jpg"
+      }
+    },
+    {
+      "name": "Iron Juggernaut",
+      "slug": "iron-juggernaut",
+      "id": 72616,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature72616.jpg"
+      }
+    },
+    {
+      "name": "Kor'kron Dark Shaman",
+      "slug": "korkron-dark-shaman",
+      "id": 71859,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71859.jpg"
+      }
+    },
+    {
+      "name": "General Nazgrim",
+      "slug": "general-nazgrim",
+      "id": 71515,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71515.jpg"
+      }
+    },
+    {
+      "name": "Malkorok",
+      "slug": "malkorok",
+      "id": 71454,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71454.jpg"
+      }
+    },
+    {
+      "name": "Spoils of Pandaria",
+      "slug": "spoils-of-pandaria",
+      "id": 71889,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71889.jpg"
+      }
+    },
+    {
+      "name": "Thok the Bloodthirsty",
+      "slug": "thok-the-bloodthirsty",
+      "id": 71529,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71529.jpg"
+      }
+    },
+    {
+      "name": "Siegecrafter Blackfuse",
+      "slug": "siegecrafter-blackfuse",
+      "id": 71504,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71504.jpg"
+      }
+    },
+    {
+      "name": "Paragons of the Klaxxi",
+      "slug": "paragons-of-the-klaxxi",
+      "id": 71152,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71152.jpg"
+      }
+    },
+    {
+      "name": "Garrosh Hellscream",
+      "slug": "garrosh-hellscream",
+      "id": 71865,
+      "raid_id": 6738,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature71865.jpg"
+      }
+    },
+    {
+      "name": "Kargath Bladefist",
+      "slug": "kargath-bladefist",
+      "id": 87444,
+      "raid_id": 6996,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87444.jpg"
+      }
+    },
+    {
+      "name": "The Butcher",
+      "slug": "the-butcher",
+      "id": 87447,
+      "raid_id": 6996,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87447.jpg"
+      }
+    },
+    {
+      "name": "Brackenspore",
+      "slug": "brackenspore",
+      "id": 87441,
+      "raid_id": 6996,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87441.jpg"
+      }
+    },
+    {
+      "name": "Tectus",
+      "slug": "tectus",
+      "id": 87446,
+      "raid_id": 6996,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87446.jpg"
+      }
+    },
+    {
+      "name": "Twin Ogron",
+      "slug": "twin-ogron",
+      "id": 87449,
+      "raid_id": 6996,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87449.jpg"
+      }
+    },
+    {
+      "name": "Ko'ragh",
+      "slug": "koragh",
+      "id": 87445,
+      "raid_id": 6996,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87445.jpg"
+      }
+    },
+    {
+      "name": "Imperator Mar'gok",
+      "slug": "imperator-margok",
+      "id": 87818,
+      "raid_id": 6996,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87818.jpg"
+      }
+    },
+    {
+      "name": "Oregorger",
+      "slug": "oregorger",
+      "id": 77182,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature77182.jpg"
+      }
+    },
+    {
+      "name": "Gruul",
+      "slug": "gruul",
+      "id": 76877,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature76877.jpg"
+      }
+    },
+    {
+      "name": "The Blast Furnace",
+      "slug": "the-blast-furnace",
+      "id": 76809,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature76809.jpg"
+      }
+    },
+    {
+      "name": "Hans'gar and Franzok",
+      "slug": "hansgar-and-franzok",
+      "id": 76974,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature76974.jpg"
+      }
+    },
+    {
+      "name": "Flamebender Ka'graz",
+      "slug": "flamebender-kagraz",
+      "id": 76814,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature76814.jpg"
+      }
+    },
+    {
+      "name": "Kromog",
+      "slug": "kromog",
+      "id": 77692,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature77692.jpg"
+      }
+    },
+    {
+      "name": "Beastlord Darmac",
+      "slug": "beastlord-darmac",
+      "id": 76865,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature76865.jpg"
+      }
+    },
+    {
+      "name": "Operator Thogar",
+      "slug": "operator-thogar",
+      "id": 76906,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature76906.jpg"
+      }
+    },
+    {
+      "name": "The Iron Maidens",
+      "slug": "the-iron-maidens",
+      "id": 77557,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature77557.jpg"
+      }
+    },
+    {
+      "name": "Blackhand",
+      "slug": "blackhand",
+      "id": 87420,
+      "raid_id": 6967,
+      "images": {
+        "icon": "http://media.blizzard.com/wow/renders/npcs/portrait/creature87420.jpg"
+      }
+    }
+  ]
 }
